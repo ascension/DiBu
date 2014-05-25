@@ -14,7 +14,7 @@
 		       <input type="password" placeholder="Password" class="form-control no-border">
 		    </div>
 		  </div>
-		  <button type="submit" class="btn btn-lg btn-primary btn-block" style="background-color: #2d2d2d; border-color: #2d2d2d;">Sign in</button>
+		  <button type="submit" class="btn btn-lg btn-default btn-block">Sign in</button>
 		  <a href="/login/facebook" class="btn btn-lg btn-primary btn-block"><i class="fa fa-facebook-square"></i> Facebook</a>
 		
 		  <a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn"><i class="fa fa-google-plus-square"></i> Google+</a>
