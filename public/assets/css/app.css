@@ -30,6 +30,12 @@ a:focus {
 label {
   font-weight: normal;
 }
+
+.social-btn
+{
+	min-width: 50px;
+}
+
 .google-btn
 {
 	background-color: #d34836 !important;
