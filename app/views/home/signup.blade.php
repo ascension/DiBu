@@ -29,8 +29,9 @@
 		  
 		  <a href="/login/facebook" class="btn btn-lg btn-primary btn-block">
 		  	<div class="social-btn">
-			  	<i class="fa fa-facebook-square" style="padding-right: 10px;"></i> Sign up with Facebook
+			  	<i class="fa fa-facebook-square" style="padding-right: 10px;"></i>
 		  	</div>
+		  	Sign up with Facebook
 		  </a>
 		
 		  <a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn"><i class="fa fa-google-plus-square" style="padding-right: 10px;"></i> Sign up with Google</a>
