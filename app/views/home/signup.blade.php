@@ -37,7 +37,7 @@
 		</a>
 		
 		<a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn">
-			<div style="margin: 0 auto; display: inline-block; width: 10% margin-left: 10%;">
+			<div style="margin: 0 auto; display: inline-block; width: 10%; margin-left: 10%;">
 				<i class="fa fa-google-plus-square" style="padding-right: 10px;"></i>
 			</div>
 			<div style="width: 75%; display: inline-block; text-align: left;">
