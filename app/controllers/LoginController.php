@@ -82,7 +82,8 @@ class LoginController extends BaseController {
 	        if(count($user) > 0)
 	        {
 		        Auth::login($user);
-		        return Redirect::to('/me');
+		        
+		        return Redirect::to('me');
 	        }
 	        else
 	        {
