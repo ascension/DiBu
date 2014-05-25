@@ -30,6 +30,10 @@ a:focus {
 label {
   font-weight: normal;
 }
+.google-btn
+{
+	background-color: #d34836;
+}
 small,
 .small {
   font-size: 12px;
