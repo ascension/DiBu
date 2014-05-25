@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,8 +67,8 @@ return array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
 			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'username' => 'dibu',
+			'password' => '55DDD86511E8BCEA2F24F55A6E89949EBB88CC327CD2B112AFBFC32E57B13CD0',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
