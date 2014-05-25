@@ -16,11 +16,11 @@ Route::get('/', 'HomeController@showWelcome');
 //Login Routes
 Route::get('/login/facebook', 	'LoginController@loginWithFacebook');
 
-//Route::get('/signin', 			'HomeController@showLogin');
-Route::get('/signin',function()
+Route::get('/signin', 			'HomeController@showLogin');
+/*Route::get('/signin',function()
 {
 	$data['title'] = 'DiBu - Login';
 	return View::make('home.login',$data);
 });
-
+*/
 Route::get('/signup', 			'HomeController@showSignup');
