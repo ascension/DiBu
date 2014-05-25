@@ -1,3 +1,4 @@
+@section('footer')
   <!-- footer -->
   <footer id="footer" class="bg-dark">
     <div class="dk">
@@ -48,3 +49,4 @@
   <script src="js/app.plugin.js"></script>
 </body>
 </html>
+@stop
