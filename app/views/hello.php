@@ -1,4 +1,4 @@
-@include('includes.header.php')
+@include('includes.header')
 	<section id="content">
 	  <div class="bg-primary dk intro">
       <div class="row">
@@ -225,4 +225,4 @@
     </div>
 	</section>
   
-@include('includes.footer.php')
+@include('includes.footer')
