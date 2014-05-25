@@ -20,6 +20,6 @@ Route::get('/login/facebook', 	'LoginController@loginWithFacebook');
 Route::get('/signin',function()
 {
 	return View::make('home.login');
-}
+});
 
 Route::get('/signup', 			'HomeController@showSignup');
