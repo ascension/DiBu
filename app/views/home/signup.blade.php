@@ -23,10 +23,18 @@
               <input type="checkbox"> Agree the <a href="#">terms and policy</a>
             </label>
           </div>
-          <button type="submit" class="btn btn-lg btn-primary btn-block">Sign up</button>
+          <button type="submit" class="btn btn-lg btn-default btn-block">Sign up</button>
+          
+   		  <div class="text-center m-t m-b">OR</div>
+		  
+		  <a href="/login/facebook" class="btn btn-lg btn-primary btn-block"><i class="fa fa-facebook-square"></i> Sign up with Facebook</a>
+		
+		  <a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn"><i class="fa fa-google-plus-square"></i> Sign up with Google</a>
+          
+          
           <div class="line line-dashed"></div>
           <p class="text-muted text-center"><small>Already have an account?</small></p>
-          <a href="signin.html" class="btn btn-lg btn-default btn-block">Sign in</a>
+          <a href="/signin" class="btn btn-lg btn-default btn-block">Sign in</a>
         </form>
       </section>
     </div>
