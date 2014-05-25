@@ -19,7 +19,8 @@ Route::get('/login/facebook', 	'LoginController@loginWithFacebook');
 //Route::get('/signin', 			'HomeController@showLogin');
 Route::get('/signin',function()
 {
-	return View::make('home.login');
+	$data['title'] = 'DiBu - Login';
+	return View::make('home.login'$data);
 });
 
 Route::get('/signup', 			'HomeController@showSignup');
