@@ -4,7 +4,11 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.1.*"
+		"laravel/framework": "4.1.*",
+		"artdarek/oauth-4-laravel": "dev-master",
+		"mandrill/mandrill": "1.0.*",
+		"twilio/sdk": "dev-master",
+		"iron-io/iron_mq": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
