@@ -3,7 +3,7 @@
 <!-- Include the header -->
 
 <!-- dynamic content goes here -->
-  @yield('main')
+  @yield('content')
 <!-- dynamic content goes here -->
          
 <!-- Include the footer -->
