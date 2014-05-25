@@ -24,7 +24,7 @@
   <header id="header" class="navbar navbar-fixed-top bg-primary dk"  data-spy="affix" data-offset-top="1">
     <div class="container">
       <div class="navbar-header">        
-        <a href="#" class="navbar-brand m-r-lg"><img src="images/logo_white.png" class="m-r-sm"><span class="text-lt">Scale</span></a>
+        <a href="#" class="navbar-brand m-r-lg"><img src="assets/images/logo_white.png" class="m-r-sm"><span class="text-lt">DiBu</span></a>
         <button class="btn btn-primary btn-emtpy visible-xs" type="button" data-toggle="collapse" data-target=".navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
@@ -130,7 +130,7 @@
         <div class="row m-t-xl m-b-xl">
           <div class="col-sm-6" data-ride="animated" data-animation="fadeInLeft" data-delay="300">
             <div class="phone-img">
-              <img src="images/phone-2.png" class="img-responsive">
+              <img src="assets/assets/images/phone-2.png" class="img-responsive">
             </div>
           </div>
           <div class="col-sm-6 wrapper-xl">
@@ -197,7 +197,7 @@
           </div>
           <div class="col-sm-6" data-ride="animated" data-animation="fadeInLeft" data-delay="300">
             <div class="phone-img">
-              <img src="images/phone-1.png" class="img-responsive">
+              <img src="assets/images/phone-1.png" class="img-responsive">
             </div>
           </div>
         </div>
