@@ -32,7 +32,7 @@ label {
 }
 .google-btn
 {
-	background-color: #d34836;
+	background-color: #d34836 !important;
 }
 small,
 .small {
