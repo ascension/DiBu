@@ -66,7 +66,7 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'database',
+			'database' => 'dibu',
 			'username' => 'dibu',
 			'password' => '55DDD86511E8BCEA2F24F55A6E89949EBB88CC327CD2B112AFBFC32E57B13CD0',
 			'charset'  => 'utf8',
