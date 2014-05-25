@@ -20,7 +20,7 @@ Route::get('/login/facebook', 	'LoginController@loginWithFacebook');
 Route::get('/signin',function()
 {
 	$data['title'] = 'DiBu - Login';
-	return View::make('home.login'$data);
+	return View::make('home.login',$data);
 });
 
 Route::get('/signup', 			'HomeController@showSignup');
