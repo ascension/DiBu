@@ -26,7 +26,7 @@ class HomeController extends BaseController {
 	
 	public function showLogin()
 	{
-		$this->layout->content	= View::make('home.hello');
+		$this->layout->content	= View::make('home.login');
 		$this->layout->header	= View::make('includes.header');
 		$this->layout->footer	= View::make('includes.footer');
 	}

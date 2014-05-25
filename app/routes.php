@@ -14,4 +14,12 @@
 Route::get('/', 'HomeController@showWelcome');
 
 //Login Routes
-Route::get('/login/facebook', 'LoginController@loginWithFacebook');
+Route::get('/login/facebook', 	'LoginController@loginWithFacebook');
+
+//Route::get('/signin', 			'HomeController@showLogin');
+Route::get('/signin',function()
+{
+	return View::make('home.login');
+}
+
+Route::get('/signup', 			'HomeController@showSignup');

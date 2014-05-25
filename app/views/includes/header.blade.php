@@ -47,7 +47,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <div class="m-t-sm"><a href="signin.html" class="btn btn-link btn-sm">Sign in</a> or <a href="signup.html" class="btn btn-sm btn-success btn-rounded m-l"><strong>Sign up</strong></a></div>
+            <div class="m-t-sm"><a href="/signin" class="btn btn-link btn-sm">Sign in</a> or <a href="/signup" class="btn btn-sm btn-success btn-rounded m-l"><strong>Sign up</strong></a></div>
           </li>
         </ul>     
       </div>
