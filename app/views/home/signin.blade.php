@@ -1,10 +1,9 @@
 @section('content')
 	<section id="content" class="m-t-lg wrapper-md animated fadeInUp">    
 		<div class="container aside-xl">
-		<a class="navbar-brand block" href="index.html">DiBu</a>
 		<section class="m-b-lg">
 		<header class="wrapper text-center">
-		  <strong>Sign in to get in touch</strong>
+		  <strong>Sign in to access your account</strong>
 		</header>
 		<form action="index.html">
 		  <div class="list-group">
@@ -15,7 +14,7 @@
 		       <input type="password" placeholder="Password" class="form-control no-border">
 		    </div>
 		  </div>
-		  <button type="submit" class="btn btn-lg btn-primary btn-block">Sign in</button>
+		  <button type="submit" class="btn btn-lg btn-primary btn-block" style="background-color: #d2d2d2;">Sign in</button>
 		  <a href="/login/facebook" class="btn btn-lg btn-primary btn-block"><i class="fa fa-facebook-square"></i> Facebook</a>
 		
 		  <a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn"><i class="fa fa-google-plus-square"></i> Google+</a>
