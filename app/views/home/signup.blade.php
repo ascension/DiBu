@@ -28,14 +28,20 @@
    		  <div class="text-center m-t m-b">OR</div>
 		  
 		<a href="/login/facebook" class="btn btn-lg btn-primary btn-block">
-			<div style="margin: 0 auto;">
-				<i class="fa fa-facebook-square" style="padding-right: 10px;"></i>Sign up with Facebook
+			<div style="margin: 0 auto; width: 25%;">
+				<i class="fa fa-facebook-square" style="padding-right: 10px;"></i>
+			</div>
+			<div style="width: 75%;">
+				Sign up with Facebook
 			</div>
 		</a>
 		
 		<a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn">
-			<div style="margin: 0 auto;">
-				<i class="fa fa-google-plus-square" style="padding-right: 10px;"></i>Sign up with Google
+			<div style="margin: 0 auto; width: 25%;">
+				<i class="fa fa-google-plus-square" style="padding-right: 10px;"></i>
+			</div>
+			<div style="width: 75%;">
+				Sign up with Google
 			</div>
 		</a>
           
