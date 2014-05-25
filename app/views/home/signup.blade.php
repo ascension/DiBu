@@ -28,10 +28,16 @@
    		  <div class="text-center m-t m-b">OR</div>
 		  
 		<a href="/login/facebook" class="btn btn-lg btn-primary btn-block">
-			<i class="fa fa-facebook-square" style="padding-right: 10px;"></i>Sign up with Facebook
+			<div style="margin: 0 auto;">
+				<i class="fa fa-facebook-square" style="padding-right: 10px;"></i>Sign up with Facebook
+			</div>
 		</a>
 		
-		  <a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn"><i class="fa fa-google-plus-square" style="padding-right: 10px;"></i> Sign up with Google</a>
+		<a href="/login/google" class="btn btn-lg btn-primary btn-block google-btn">
+			<div style="margin: 0 auto;">
+				<i class="fa fa-google-plus-square" style="padding-right: 10px;"></i>Sign up with Google
+			</div>
+		</a>
           
           
           <div class="line line-dashed"></div>
