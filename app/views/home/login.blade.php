@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/icon.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/font.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/app.css" type="text/css" />  
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
@@ -35,8 +36,10 @@
             </div>
           </div>
           <button type="submit" class="btn btn-lg btn-primary btn-block">Sign in</button>
-          <a href="/login/facebook" class="btn btn-lg btn-primary btn-block">Facebook</a>
-          <button type="submit" class="btn btn-lg btn-primary btn-block">Sign in</button>
+          <a href="/login/facebook" class="btn btn-lg btn-primary btn-block"><i class="fa fa-facebook-square"></i> Facebook</a>
+
+          <a href="/login/google" class="btn btn-lg btn-primary btn-block"><i class="fa fa-google-plus-square"></i> Google+</a>
+
           <div class="text-center m-t m-b"><a href="#"><small>Forgot password?</small></a></div>
           <div class="line line-dashed"></div>
           <p class="text-muted text-center"><small>Do not have an account?</small></p>
