@@ -30,5 +30,12 @@ class HomeController extends BaseController {
 		$this->layout->header	= View::make('includes.header');
 		$this->layout->footer	= View::make('includes.footer');
 	}
+	
+	public function showSignup()
+	{
+		$this->layout->content	= View::make('home.signup');
+		$this->layout->header	= View::make('includes.header');
+		$this->layout->footer	= View::make('includes.footer');
+	}
 
 }
