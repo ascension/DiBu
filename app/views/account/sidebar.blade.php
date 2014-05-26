@@ -9,7 +9,7 @@
               <div class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <span class="thumb avatar pull-left m-r">                        
-                    <img src="images/a0.png" class="dker" alt="...">
+                    <img src="/assets/images/a0.png" class="dker" alt="...">
                     <i class="on md b-black"></i>
                   </span>
                   <span class="hidden-nav-xs clear">
