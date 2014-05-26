@@ -83,7 +83,7 @@ class LoginController extends BaseController {
 	        {
 		        Auth::login($user);
 		        
-		        return Redirect::to('me');
+		        return Redirect::to('/me');
 	        }
 	        else
 	        {
@@ -97,6 +97,10 @@ class LoginController extends BaseController {
 		       $nuser->updated_at 	= time(); 
 		       
 		       $nuser->save();
+		       
+		       Auth::login($nuser);
+		        
+		       return Redirect::to('/me');
 	        }
 
 			
