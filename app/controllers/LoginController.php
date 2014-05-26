@@ -83,9 +83,9 @@ class LoginController extends BaseController {
 	        {
 		        Auth::login($user);
 		        
-		        echo $message;
+		        echo $message
 		        
-		        //return Redirect::to('/me');
+		        return Redirect::to('/me/dashboard');
 	        }
 	        else
 	        {
@@ -102,7 +102,7 @@ class LoginController extends BaseController {
 		       
 		       Auth::login($nuser);
 		        
-		       return Redirect::to('/me');
+		       return Redirect::to('/me/dashboard');
 	        }
 
 			

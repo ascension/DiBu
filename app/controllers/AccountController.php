@@ -17,11 +17,10 @@ class AccountController extends BaseController {
 	
 	protected $layout = 'layouts.account';
 
-	public function showWelcome()
+	public function showDashboard()
 	{
-		$this->layout->content	= View::make('home.hello');
+		$this->layout->content	= View::make('account.home');
 		$this->layout->header	= View::make('includes.header');
-		$this->layout->footer	= View::make('includes.footer');
 	}
 	
 	public function showLogin()
