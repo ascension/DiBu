@@ -46,6 +46,14 @@
   <script src="js/appear/jquery.appear.js"></script>
   <script src="js/landing.js"></script>
   <script src="js/app.plugin.js"></script>
+  
+  	<script type="text/javascript">
+    	if (window.location.hash && window.location.hash == '#_=_') 
+    	{
+        	window.location.hash = '';
+		}
+	</script>
+  
 </body>
 </html>
 @stop
