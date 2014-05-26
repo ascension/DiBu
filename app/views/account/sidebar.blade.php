@@ -14,10 +14,12 @@
                   </span>
                   <span class="hidden-nav-xs clear">
                     <span class="block m-t-xs">
-                      <strong class="font-bold text-lt">John.Smith</strong> 
+                      <strong class="font-bold text-lt">{{$first_name}}.{{$last_name}}</strong> 
                       <b class="caret"></b>
                     </span>
-                    <span class="text-muted text-xs block">Art Director</span>
+                    @if(isset($title))
+                    <span class="text-muted text-xs block">{{$title}}</span>
+                    @endif
                   </span>
                 </a>
                 <ul class="dropdown-menu animated fadeInRight m-t-xs">                      
@@ -51,10 +53,10 @@
               <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Start</div>
               <ul class="nav nav-main" data-ride="collapse">
                 <li  class="active">
-                  <a href="index.html" class="auto">
+                  <a href="/me/dashboard" class="auto">
                     <i class="i i-statistics icon">
                     </i>
-                    <span class="font-bold">Overview</span>
+                    <span class="font-bold">Dashboard</span>
                   </a>
                 </li>
                 <li >
