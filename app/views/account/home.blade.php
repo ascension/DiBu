@@ -27,6 +27,31 @@
                       <a href="#nav, #sidebar" class="btn btn-icon b-2x btn-info btn-rounded" data-toggle="class:nav-xs, show"><i class="fa fa-bars"></i></a>
                     </div>
                   </section>
+                  
+                  <div class="row">
+                  	<section class="panel panel-default">
+                  		<header class="panel-heading font-bold"> Inline form </header> 
+                  		<div class="panel-body"> 
+                  			<form class="form-inline" role="form"> 
+                  				<div class="form-group"> 
+                  					<label class="sr-only" for="exampleInputEmail2">Email address</label> 
+                  					<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"> 
+                  				</div> 
+                  				<div class="form-group">
+                  					<label class="sr-only" for="exampleInputPassword2">Password</label> 
+                  					<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                  				</div>
+                  				<div class="checkbox m-l m-r-xs">
+                  					<label class="i-checks">
+                  					<input type="checkbox"><i></i> Remember me </label>
+                  				</div>
+                  				<button type="submit" class="btn btn-default">Sign in</button> 
+                  				<a href="#modal-form" class="btn btn-success" data-toggle="modal">Form in a modal</a> 
+                  			</form>
+                  		</div> 
+                  	</section>
+                  </div>
+                  
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="panel b-a">

@@ -15,6 +15,9 @@ class CreateReadingTable extends Migration {
 		Schema::create('bg_readings', function(Blueprint $table)
 		{
 			$table->increments('id');
+			$table->integer('reading');
+			$table->text('note')->nullable();
+			$table->integer('user_id');
 			$table->timestamps();
 		});
 	}
