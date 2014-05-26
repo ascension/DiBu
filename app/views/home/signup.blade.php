@@ -1,10 +1,10 @@
 @section('content')
   <section id="content" class="m-t-lg wrapper-md animated fadeInDown">
     <div class="container aside-xl">
-      <a class="navbar-brand block" href="index.html">Scale</a>
+      <a class="navbar-brand block" href="index.html"><img src="assets/images/blue_circle_200.png"/></a>
       <section class="m-b-lg">
         <header class="wrapper text-center">
-          <strong>Sign up to find interesting thing</strong>
+          <strong>Sign up</strong>
         </header>
         <form action="index.html">
           <div class="list-group">
@@ -45,10 +45,6 @@
 			</div>
 		</a>
           
-          
-          <div class="line line-dashed"></div>
-          <p class="text-muted text-center"><small>Already have an account?</small></p>
-          <a href="/signin" class="btn btn-lg btn-default btn-block">Sign in</a>
         </form>
       </section>
     </div>
