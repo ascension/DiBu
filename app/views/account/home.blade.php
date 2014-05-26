@@ -10,7 +10,7 @@
                   <section class="row m-b-md">
                     <div class="col-sm-6">
                       <h3 class="m-b-xs text-black">Dashboard</h3>
-                      <small>Welcome back, John Smith, <i class="fa fa-map-marker fa-lg text-primary"></i> New York City</small>
+                      <small>Welcome back, {{$first_name}} {{$last_name}}, <i class="fa fa-map-marker fa-lg text-primary"></i> Denver</small>
                     </div>
                     <div class="col-sm-6 text-right text-left-xs m-t-md">
                       <div class="btn-group">
@@ -167,15 +167,15 @@
                             </div>
                             <a href="#" class="btn btn-default btn-icon btn-rounded btn-sm">Go</a>
                           </div>
-                          Statistics
+                          Blood Glucose & Carb Counts
                         </header>
                         <div class="panel-body">
                           <div id="flot-sp1ine" style="height:210px"></div>
                         </div>
                         <div class="row text-center no-gutter">
                           <div class="col-xs-3">
-                            <span class="h4 font-bold m-t block">5,860</span>
-                            <small class="text-muted m-b block">Orders</small>
+                            <span class="h4 font-bold m-t block">150</span>
+                            <small class="text-muted m-b block">Avg. Blood Glucose</small>
                           </div>
                           <div class="col-xs-3">
                             <span class="h4 font-bold m-t block">10,450</span>

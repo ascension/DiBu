@@ -19,6 +19,11 @@ class AccountController extends BaseController {
 
 	public function showDashboard()
 	{
+		$data = array();
+		
+		$data['first_name'] = Auth::user()->first_name;
+		$data['last_name'] = Auth::user()->last_name;
+		
 		$this->layout->content	= View::make('account.home');
 		$this->layout->header	= View::make('account.header');
 	}
