@@ -29,7 +29,7 @@
                   </section>
                   
                   <div class="row">
-                  	<div class="col-md-8">
+                  	<div class="col-md-6">
 	                  	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Blood Glucose Reading</header> 
 	                  		<div class="panel-body"> 
@@ -48,7 +48,7 @@
 	                  	</section>
                   	</div>
                   	
-                  	<div class="col-md-8">
+                  	<div class="col-md-6">
 	                  	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a meal</header> 
 	                  		<div class="panel-body"> 
