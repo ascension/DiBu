@@ -6,18 +6,17 @@
         <div class="row m-t-xl m-b-xl">
           <div class="col-sm-4">
             <h4 class="text-u-c m-b font-thin text-lt"><span class="b-b b-dark">Find</span> Us</h4>
-            <p class="text-sm">23 soe Midlokls <br>
-              120002 Loki — UNITED KINGDOM <br>
-              +333 432 321 322
+            <p class="text-sm">
+				Denver, Colorado
              </p>
           </div>
           <div class="col-sm-4">
             <h4 class="text-u-c m-b font-thin text-lt"><span class="b-b b-dark">Mail</span> Us</h4>
-            <p class="text-sm"><a href="mailto:hey@example.com">info@example.com</a></p>
+            <p class="text-sm"><a href="mailto:hey@example.com">info@dibu.io</a></p>
           </div>
           <div class="col-sm-4">
            <h4 class="text-u-c m-b font-thin text-lt"><span class="b-b b-dark">Join</span> Us</h4>
-            <p class="text-sm">Send your resume to <br><a href="mailto:hey@example.com">recruit@example.com</a></p>
+            <p class="text-sm">Send your resume to <br><a href="mailto:hey@example.com">recruit@dibu.io</a></p>
           </div>
         </div>
       </div>
@@ -26,7 +25,7 @@
       <div class="container">
         <div class="row m-t-xl m-b-xl">
           <div class="col-sm-6">
-            Scale App &copy; 2014
+            DiBu &copy; 2014
           </div>
           <div class="col-sm-6 text-right text-left-xs">
             <span>Follow us on </span>
