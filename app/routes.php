@@ -26,3 +26,21 @@ Route::get('/signin', 			'HomeController@showLogin');
 });
 */
 Route::get('/signup', 			'HomeController@showSignup');
+
+//Messages
+Route::resource('message', 'MessageController');
+
+//Food
+Route::resource('api/food', 'FoodController');
+
+//Meal
+Route::resource('meal', 'MealController');
+
+//Note
+Route::resource('note', 'NoteController');
+
+//Note
+Route::resource('reading', 'ReadingController');
+
+//Note
+Route::resource('insulin', 'InsulinController');
