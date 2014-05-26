@@ -232,19 +232,19 @@
                           </div>
                           <div class="m-b">
                             <a href="#" class="avatar thumb-sm">
-                              <img src="images/a0.png" alt="...">
+                              <img src="/assets/images/a0.png" alt="...">
                               <i class="on b-white"></i>
                             </a>
                             <a href="#" class="avatar thumb-sm">
-                              <img src="images/a1.png" alt="...">
+                              <img src="/assets/images/a1.png" alt="...">
                               <i class="busy b-white"></i>
                             </a>
                             <a href="#" class="avatar thumb-sm">
-                              <img src="images/a2.png" alt="...">
+                              <img src="/assets/images/a2.png" alt="...">
                               <i class="away b-white"></i>
                             </a>
                             <a href="#" class="avatar thumb-sm">
-                              <img src="images/a3.png" alt="...">
+                              <img src="/assets/images/a3.png" alt="...">
                               <i class="off b-white"></i>
                             </a>
                             <a href="#" class="btn btn-info btn-rounded font-bold">
@@ -257,7 +257,7 @@
                         <div class="clearfix panel-footer">
                           <small class="text-muted pull-right">5m ago</small>
                           <a href="#" class="thumb-sm pull-left m-r">
-                            <img src="images/a0.png" alt="..." class="img-circle">
+                            <img src="/assets/images/a0.png" alt="..." class="img-circle">
                           </a>
                           <div class="clear">
                             <a href="#"><strong>Jonathan Omish</strong></a>
@@ -275,7 +275,7 @@
                         <ul class="list-group list-group-lg no-bg auto">                          
                           <a href="#" class="list-group-item clearfix">
                             <span class="pull-left thumb-sm avatar m-r">
-                              <img src="images/a4.png" alt="...">
+                              <img src="/assets/images/a4.png" alt="...">
                               <i class="on b-white bottom"></i>
                             </span>
                             <span class="clear">
@@ -285,7 +285,7 @@
                           </a>
                           <a href="#" class="list-group-item clearfix">
                             <span class="pull-left thumb-sm avatar m-r">
-                              <img src="images/a5.png" alt="...">
+                              <img src="/assets/images/a5.png" alt="...">
                               <i class="on b-white bottom"></i>
                             </span>
                             <span class="clear">
@@ -295,7 +295,7 @@
                           </a>
                           <a href="#" class="list-group-item clearfix">
                             <span class="pull-left thumb-sm avatar m-r">
-                              <img src="images/a6.png" alt="...">
+                              <img src="/assets/images/a6.png" alt="...">
                               <i class="busy b-white bottom"></i>
                             </span>
                             <span class="clear">
@@ -305,7 +305,7 @@
                           </a>
                           <a href="#" class="list-group-item clearfix">
                             <span class="pull-left thumb-sm avatar m-r">
-                              <img src="images/a7.png" alt="...">
+                              <img src="/assets/images/a7.png" alt="...">
                               <i class="away b-white bottom"></i>
                             </span>
                             <span class="clear">
@@ -396,7 +396,7 @@
                     <li class="list-group-item">
                       <div class="media">
                         <span class="pull-left thumb-sm avatar">
-                          <img src="images/a3.png" alt="..." class="img-circle">
+                          <img src="/assets/images/a3.png" alt="..." class="img-circle">
                           <i class="on b-black bottom"></i>
                         </span>
                         <div class="media-body">
@@ -408,7 +408,7 @@
                     <li class="list-group-item">
                       <div class="media">
                         <span class="pull-left thumb-sm avatar">
-                          <img src="images/a2.png" alt="...">
+                          <img src="/assets/images/a2.png" alt="...">
                           <i class="on b-black bottom"></i>
                         </span>
                         <div class="media-body">
@@ -420,7 +420,7 @@
                     <li class="list-group-item">
                       <div class="media">
                         <span class="pull-left thumb-sm avatar">
-                          <img src="images/a1.png" alt="...">
+                          <img src="/assets/images/a1.png" alt="...">
                           <i class="busy b-black bottom"></i>
                         </span>
                         <div class="media-body">
@@ -432,7 +432,7 @@
                     <li class="list-group-item">
                       <div class="media">
                         <span class="pull-left thumb-sm avatar">
-                          <img src="images/a0.png" alt="...">
+                          <img src="/assets/images/a0.png" alt="...">
                           <i class="away b-black bottom"></i>
                         </span>
                         <div class="media-body">
