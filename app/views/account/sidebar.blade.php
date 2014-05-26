@@ -25,10 +25,10 @@
                 <ul class="dropdown-menu animated fadeInRight m-t-xs">                      
                   <li>
                     <span class="arrow top hidden-nav-xs"></span>
-                    <a href="#">Settings</a>
+                    <a href="/me/settings">Settings</a>
                   </li>
                   <li>
-                    <a href="profile.html">Profile</a>
+                    <a href="/me/profile">Profile</a>
                   </li>
                   <li>
                     <a href="#">
@@ -37,7 +37,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="docs.html">Help</a>
+                    <a href="/help">Help</a>
                   </li>
                   <li class="divider"></li>
                   <li>
