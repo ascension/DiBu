@@ -3,7 +3,7 @@
 <html lang="en" class=" ">
 <head>  
   <meta charset="utf-8" />
-  <title>Scale | Web Application</title>
+  <title>DiBu | Diabetic Companion</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <link rel="icon" type="image" href="assets/images/favicon.ico"/>
@@ -40,10 +40,7 @@
             <a href="#features" data-ride="scroll">Features</a>
           </li>
           <li>
-            <a href="#pro" data-ride="scroll">Scale Pro</a>
-          </li>
-          <li>
-            <a href="#download" data-ride="scroll">Download</a>
+            <a href="#pro" data-ride="scroll">DiBu Pro</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
           <div class="m-t-xl m-b-xl padder">
-            <div class="h1 text-white font-thin l-h-2x">Modern, Clean & Flat User Interface Kit</div>
+            <div class="h1 text-white font-thin l-h-2x">Logging & Trends made Simple</div>
             <div class="carousel slide carousel-fade inline auto" data-interval="6000">
                 <div class="carousel-inner">
                   <div class="item active">                    
