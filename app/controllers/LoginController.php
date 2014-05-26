@@ -83,7 +83,9 @@ class LoginController extends BaseController {
 	        {
 		        Auth::login($user);
 		        
-		        return Redirect::to('/me');
+		        echo $message;
+		        
+		        //return Redirect::to('/me');
 	        }
 	        else
 	        {
