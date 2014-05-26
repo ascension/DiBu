@@ -26,7 +26,7 @@
   <header id="header" class="navbar navbar-fixed-top bg-primary dk"  data-spy="affix" data-offset-top="1">
     <div class="container">
       <div class="navbar-header">        
-        <a href="#" class="navbar-brand m-r-lg"><img src="assets/images/logo_white.png" class="m-r-sm"><span class="text-lt">DiBu</span></a>
+        <a href="/" class="navbar-brand m-r-lg"><img src="assets/images/logo_white.png" class="m-r-sm"><span class="text-lt">DiBu</span></a>
         <button class="btn btn-primary btn-emtpy visible-xs" type="button" data-toggle="collapse" data-target=".navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
@@ -34,13 +34,13 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="#howitworks" data-ride="scroll">How it works</a>
+            <a href="/how-it-works" data-ride="scroll">How it works</a>
           </li>
           <li>
-            <a href="#features" data-ride="scroll">Features</a>
+            <a href="/features" data-ride="scroll">Features</a>
           </li>
           <li>
-            <a href="#pro" data-ride="scroll">DiBu Pro</a>
+            <a href="/pro" data-ride="scroll">DiBu Pro</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
