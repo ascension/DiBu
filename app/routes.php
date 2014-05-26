@@ -28,19 +28,19 @@ Route::get('/signin', 			'HomeController@showLogin');
 Route::get('/signup', 			'HomeController@showSignup');
 
 //Messages
-Route::resource('message', 'MessageController');
+Route::resource('api/message', 'MessageController');
 
 //Food
 Route::resource('api/food', 'FoodController');
 
 //Meal
-Route::resource('meal', 'MealController');
+Route::resource('api/meal', 'MealController');
 
 //Note
-Route::resource('note', 'NoteController');
+Route::resource('api/note', 'NoteController');
 
 //Note
-Route::resource('reading', 'ReadingController');
+Route::resource('api/reading', 'ReadingController');
 
 //Note
-Route::resource('insulin', 'InsulinController');
+Route::resource('api/insulin', 'InsulinController');
