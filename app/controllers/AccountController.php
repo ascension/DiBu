@@ -20,7 +20,7 @@ class AccountController extends BaseController {
 	public function showDashboard()
 	{
 		$this->layout->content	= View::make('account.home');
-		$this->layout->header	= View::make('includes.header');
+		$this->layout->header	= View::make('account.header');
 	}
 	
 	public function showLogin()
