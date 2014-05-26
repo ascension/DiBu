@@ -1,3 +1,4 @@
+@section('header')
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>  
@@ -181,3 +182,5 @@
         </li>
       </ul>      
     </header>
+    
+@stop
