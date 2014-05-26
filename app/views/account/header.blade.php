@@ -27,7 +27,7 @@
           <i class="fa fa-bars"></i>
         </a>
         <a href="index.html" class="navbar-brand">
-          <img src="images/logo.png" class="m-r-sm" alt="scale">
+          <img src="/assets/images/logo.png" class="m-r-sm" alt="scale">
           <span class="hidden-nav-xs">Scale</span>
         </a>
         <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
@@ -129,7 +129,7 @@
               <div class="list-group list-group-alt">
                 <a href="#" class="media list-group-item">
                   <span class="pull-left thumb-sm">
-                    <img src="images/a0.png" alt="..." class="img-circle">
+                    <img src="/assets/images/a0.png" alt="..." class="img-circle">
                   </span>
                   <span class="media-body block m-b-none">
                     Use awesome animate.css<br>
@@ -153,7 +153,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <span class="thumb-sm avatar pull-left">
-              <img src="images/a0.png" alt="...">
+              <img src="/assets/images/a0.png" alt="...">
             </span>
             John.Smith <b class="caret"></b>
           </a>
