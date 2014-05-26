@@ -83,8 +83,6 @@ class LoginController extends BaseController {
 	        {
 		        Auth::login($user);
 		        
-		        echo $message
-		        
 		        return Redirect::to('/me/dashboard');
 	        }
 	        else
