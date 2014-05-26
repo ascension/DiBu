@@ -15,6 +15,14 @@ class CreateFoodItmesTable extends Migration {
 		Schema::create('food_items', function(Blueprint $table)
 		{
 			$table->increments('id');
+			$table->text('description');
+			$table->text('brand')->nullable();
+			$table->text('size')->nullable();
+			$table->integer('carbs');
+			$table->integer('serving_size')->nullable();
+			$table->string('barcode')->nullable();
+			$table->integer('user_id');
+			$table->integer('meal_id')->nullable();
 			$table->timestamps();
 		});
 	}

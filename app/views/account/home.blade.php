@@ -59,11 +59,11 @@
 	                  				</div> 
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
-	                  					<input type="text" class="form-control" id="exampleInputPassword2" placeholder="ex. Before Lunch">
+	                  					<input type="text" class="form-control" id="exampleInputPassword2" placeholder="Note">
 	                  				</div>
 	                  				
 	                  				<div class="form-group">
-	                  					<select name="account" class="form-control m-b">
+	                  					<select name="account" class="form-control">
 	                  						<option>Breakfast</option>
 	                  						<option>Lunch</option>
 	                  						<option>Dinner</option>
@@ -132,44 +132,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="panel b-a">
-                        <div class="panel-heading no-border bg-primary lt text-center">
-                          <a href="#">
-                            <i class="fa fa-facebook fa fa-3x m-t m-b text-white"></i>
-                          </a>
-                        </div>
-                        <div class="padder-v text-center clearfix">                            
-                          <div class="col-xs-6 b-r">
-                            <div class="h3 font-bold">42k</div>
-                            <small class="text-muted">Friends</small>
-                          </div>
-                          <div class="col-xs-6">
-                            <div class="h3 font-bold">90</div>
-                            <small class="text-muted">Feeds</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="panel b-a">
-                        <div class="panel-heading no-border bg-info lter text-center">
-                          <a href="#">
-                            <i class="fa fa-twitter fa fa-3x m-t m-b text-white"></i>
-                          </a>
-                        </div>
-                        <div class="padder-v text-center clearfix">                            
-                          <div class="col-xs-6 b-r">
-                            <div class="h3 font-bold">27k</div>
-                            <small class="text-muted">Tweets</small>
-                          </div>
-                          <div class="col-xs-6">
-                            <div class="h3 font-bold">15k</div>
-                            <small class="text-muted">Followers</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                     <div class="col-sm-3 hide">
                       <section class="panel b-a">
                         <header class="panel-heading b-b b-light">
