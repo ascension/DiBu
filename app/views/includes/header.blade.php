@@ -6,7 +6,7 @@
   <title>Scale | Web Application</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-  <link rel="icon" type="image" href="favicon.ico"/>
+  <link rel="icon" type="image" href="assets/images/favicon.ico"/>
   <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
