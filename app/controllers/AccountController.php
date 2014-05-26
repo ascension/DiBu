@@ -24,8 +24,15 @@ class AccountController extends BaseController {
 		$data['first_name'] = Auth::user()->first_name;
 		$data['last_name'] = Auth::user()->last_name;
 		
-		$this->layout->content	= View::make('account.home');
-		$this->layout->header	= View::make('account.header');
+		if (Auth::check())
+		{
+			$this->layout->content	= View::make('account.home');
+			$this->layout->header	= View::make('account.header');
+		}
+		else
+		{
+			echo 'User not logged';
+		}
 	}
 	
 	public function showLogin()
