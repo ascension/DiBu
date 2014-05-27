@@ -40,6 +40,10 @@ class ReadingController extends \BaseController {
 		
 		$r->save();
 		
+		$o = Reading::all();
+		
+		print_r($o);
+		
 	}
 
 
