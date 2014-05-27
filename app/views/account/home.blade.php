@@ -82,7 +82,7 @@
 	                	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Food Item</header> 
 	                  		<div class="panel-body"> 
-	                  			<form class="form-inline" role="form">
+	                  			<form class="form-inline" role="form" method="post" action="/api/food">
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Description</label> 
 	                  					<input type="text" class="form-control" name="description" id="exampleInputPassword2" placeholder="Description of item">
