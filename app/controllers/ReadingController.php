@@ -42,7 +42,9 @@ class ReadingController extends \BaseController {
 		
 		$o = Reading::all();
 		
+		echo '<pre>';
 		print_r($o);
+		echo '</pre>';
 		
 	}
 

@@ -32,6 +32,12 @@ class FoodController extends \BaseController {
 	public function store()
 	{
 		//
+		
+		$food = new Food;
+		
+		$food->description = ;
+		
+		$food->save();
 	}
 
 

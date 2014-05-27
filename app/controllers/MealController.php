@@ -32,6 +32,11 @@ class MealController extends \BaseController {
 	public function store()
 	{
 		//
+		$meal = new Meal;
+		
+		$meal->user_id = Auth::user()->id;
+		
+		$meal->save();
 	}
 
 

@@ -64,10 +64,10 @@
 	                  				
 	                  				<div class="form-group">
 	                  					<select name="account" class="form-control">
-	                  						<option>Breakfast</option>
-	                  						<option>Lunch</option>
-	                  						<option>Dinner</option>
-	                  						<option>Snack</option> 
+	                  						<option value="breakfast">Breakfast</option>
+	                  						<option value="lunch">Lunch</option>
+	                  						<option value="dinner">Dinner</option>
+	                  						<option value="snack">Snack</option> 
 		                  				</select>
 	                  				</div>
 	                  				<button type="submit" class="btn btn-default">Submit</button> 
@@ -76,6 +76,39 @@
 	                  	</section>
                   	</div>
                   </div>
+                  
+                <div class="row">
+					<div class="col-md-12">
+	                	<section class="panel panel-default">
+	                  		<header class="panel-heading font-bold">Add a Food Item</header> 
+	                  		<div class="panel-body"> 
+	                  			<form class="form-inline" role="form">
+	                  				<div class="form-group">
+	                  					<label class="sr-only" for="exampleInputPassword2">Description</label> 
+	                  					<input type="text" class="form-control" name="description" id="exampleInputPassword2" placeholder="Note">
+	                  				</div>
+	                  				<div class="form-group"> 
+	                  					<label class="sr-only" for="exampleInputEmail2">Carbs (g)</label> 
+	                  					<input type="text" class="form-control" name="carbs" id="exampleInputEmail2" placeholder="Enter amount of carbs"> 
+	                  				</div> 
+	                  				<div class="form-group">
+	                  					<label class="sr-only" for="exampleInputPassword2">Brand</label> 
+	                  					<input type="text" class="form-control" name="brand" id="exampleInputPassword2" placeholder="Note">
+	                  				</div>
+	                  				<div class="form-group">
+	                  					<select name="account" class="form-control">
+	                  						<option value="breakfast">Breakfast</option>
+	                  						<option value="lunch">Lunch</option>
+	                  						<option value="dinner">Dinner</option>
+	                  						<option value="snack">Snack</option> 
+		                  				</select>
+	                  				</div>
+	                  				<button type="submit" class="btn btn-default">Submit</button> 
+	                  			</form>
+	                  		</div> 
+	                  	</section>
+					 </div>
+				 </div>
                   
                   <div class="row">
                     <div class="col-sm-6">
