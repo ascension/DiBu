@@ -39,11 +39,8 @@ class FoodController extends \BaseController {
 		
 		$food->carbs	 	= Input::get('carbs');
 		
-		if(isset(Input::get('brand')))
-		{
-			$food->brand	 	= Input::get('brand');
-		}
-		
+		$food->brand	 	= Input::get('brand');
+				
 		$food->user_id 		= Auth::user()->id;
 		
 		$food->save();
