@@ -85,7 +85,7 @@
 	                  			<form class="form-inline" role="form">
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Description</label> 
-	                  					<input type="text" class="form-control" name="description" id="exampleInputPassword2" placeholder="Note">
+	                  					<input type="text" class="form-control" name="description" id="exampleInputPassword2" placeholder="Description of item">
 	                  				</div>
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Carbs (g)</label> 
@@ -93,15 +93,7 @@
 	                  				</div> 
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Brand</label> 
-	                  					<input type="text" class="form-control" name="brand" id="exampleInputPassword2" placeholder="Note">
-	                  				</div>
-	                  				<div class="form-group">
-	                  					<select name="account" class="form-control">
-	                  						<option value="breakfast">Breakfast</option>
-	                  						<option value="lunch">Lunch</option>
-	                  						<option value="dinner">Dinner</option>
-	                  						<option value="snack">Snack</option> 
-		                  				</select>
+	                  					<input type="text" class="form-control" name="brand" id="" placeholder="Brand/Resturant">
 	                  				</div>
 	                  				<button type="submit" class="btn btn-default">Submit</button> 
 	                  			</form>
