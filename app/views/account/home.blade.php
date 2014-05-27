@@ -36,11 +36,11 @@
 	                  			<form class="form-inline" role="form" method="post" action="/reading"> 
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Reading</label> 
-	                  					<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter meter reading"> 
+	                  					<input type="text" class="form-control" name="bg_reading" id="exampleInputEmail2" placeholder="Enter meter reading"> 
 	                  				</div> 
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
-	                  					<input type="text" class="form-control" id="exampleInputPassword2" placeholder="ex. Before Lunch">
+	                  					<input type="text" class="form-control" name="bg_note" id="exampleInputPassword2" placeholder="ex. Before Lunch">
 	                  				</div>
 	                  				<button type="submit" class="btn btn-default">Submit</button> 
 	                  			</form>
