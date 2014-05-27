@@ -33,7 +33,7 @@
 	                  	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Blood Glucose Reading</header> 
 	                  		<div class="panel-body"> 
-	                  			<form class="form-inline" role="form" method="post" action="/reading"> 
+	                  			<form class="form-inline" role="form" method="post" action="/api/reading"> 
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Reading</label> 
 	                  					<input type="text" class="form-control" name="bg_reading" id="exampleInputEmail2" placeholder="Enter meter reading"> 
