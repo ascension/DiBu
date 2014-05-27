@@ -26,9 +26,9 @@
         <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
           <i class="fa fa-bars"></i>
         </a>
-        <a href="index.html" class="navbar-brand">
+        <a href="/" class="navbar-brand">
           <img src="/assets/images/logo.png" class="m-r-sm" alt="scale">
-          <span class="hidden-nav-xs">Scale</span>
+          <span class="hidden-nav-xs">DiBu</span>
         </a>
         <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
           <i class="fa fa-cog"></i>
@@ -111,7 +111,7 @@
             <span class="input-group-btn">
               <button type="submit" class="btn btn-sm bg-white b-white btn-icon"><i class="fa fa-search"></i></button>
             </span>
-            <input type="text" class="form-control input-sm no-border" placeholder="Search apps, projects...">            
+            <input type="text" class="form-control input-sm no-border" placeholder="Search readings, food items, meals...">            
           </div>
         </div>
       </form>
