@@ -23,6 +23,7 @@ class AccountController extends BaseController {
 		
 		$data['first_name'] = Auth::user()->first_name;
 		$data['last_name'] = Auth::user()->last_name;
+		$data['location'] = GeoIP::getLocation();
 		
 		if (Auth::check())
 		{

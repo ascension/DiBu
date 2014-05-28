@@ -10,7 +10,7 @@
                   <section class="row m-b-md">
                     <div class="col-sm-6">
                       <h3 class="m-b-xs text-black">Dashboard</h3>
-                      <small>Welcome back, {{$first_name}} {{$last_name}}, <i class="fa fa-map-marker fa-lg text-primary"></i> Denver</small>
+                      <small>Welcome back, {{$first_name}} {{$last_name}}, <i class="fa fa-map-marker fa-lg text-primary"></i> {{$location['city'].", ".$location['state']}}</small>
                     </div>
                     <div class="col-sm-6 text-right text-left-xs m-t-md">
                       <div class="btn-group">
