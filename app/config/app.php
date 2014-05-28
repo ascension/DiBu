@@ -119,7 +119,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Artdarek\OAuth\OAuthServiceProvider'
+		'Artdarek\OAuth\OAuthServiceProvider',
+		'Torann\GeoIP\GeoIPServiceProvider',
 
 	),
 
@@ -187,6 +188,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 		'OAuth' => 'Artdarek\OAuth\Facade\OAuth',
+		'GeoIP' => 'Torann\GeoIP\GeoIPFacade',
 
 	),
 
