@@ -37,7 +37,9 @@ class ReadingController extends \BaseController {
 		$r->reading = Input::get('bg_reading');
 		$r->user_id = Auth::user()->id;
 		
-		$r->save();		
+		$r->save();
+		
+		return $r->reading;		
 	}
 
 
