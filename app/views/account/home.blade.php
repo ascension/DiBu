@@ -110,7 +110,7 @@
 	                  		<div class="panel-body"> 
 	                  			<ul>
 						  		@foreach($foods as $food)
-						  			<li>print_r($food)</li>	
+						  			<li>{{print_r($food)}}</li>	
 						  		@endforeach
 	                  			</ul>
 	                  		</div> 
