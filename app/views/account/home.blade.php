@@ -37,6 +37,7 @@
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Reading</label> 
 	                  					<input type="text" class="form-control" name="bg_reading" id="exampleInputEmail2" placeholder="Enter meter reading"> 
+	                  					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 	                  				</div> 
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
@@ -56,6 +57,7 @@
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Carbs (g)</label> 
 	                  					<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter amount of carbs"> 
+	                  					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 	                  				</div> 
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
@@ -86,6 +88,7 @@
 	                  				<div class="form-group">
 	                  					<label class="sr-only" for="exampleInputPassword2">Description</label> 
 	                  					<input type="text" class="form-control" name="description" id="exampleInputPassword2" placeholder="Description of item">
+	                  					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 	                  				</div>
 	                  				<div class="form-group"> 
 	                  					<label class="sr-only" for="exampleInputEmail2">Carbs (g)</label> 
@@ -493,10 +496,20 @@
   <script src="/assets/js/jquery.min.js"></script>
   <!-- Bootstrap -->
   <script src="/assets/js/bootstrap.js"></script>
+  
+  <script>
+	  $( "form" ).on( "submit", function( event ) 
+	  {
+		  event.preventDefault();
+		  console.log( $( this ).serialize() );
+	});
+	  
+  </script>
+  
   <!-- App -->
   <script src="/assets/js/app.js"></script>  
   <script src="/assets/js/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="/assets/js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
+  <script src="/assets/js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
   <script src="/assets/js/charts/sparkline/jquery.sparkline.min.js"></script>
   <script src="/assets/js/charts/flot/jquery.flot.min.js"></script>
   <script src="/assets/js/charts/flot/jquery.flot.tooltip.min.js"></script>

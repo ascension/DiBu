@@ -31,21 +31,13 @@ class ReadingController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
-		
+
 		$r = new Reading;
 		
 		$r->reading = Input::get('bg_reading');
 		$r->user_id = Auth::user()->id;
 		
-		$r->save();
-		
-		$o = Reading::all();
-		
-		echo '<pre>';
-		print_r($o);
-		echo '</pre>';
-		
+		$r->save();		
 	}
 
 

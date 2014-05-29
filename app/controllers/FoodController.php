@@ -45,7 +45,6 @@ class FoodController extends \BaseController {
 		
 		$food->save();
 		
-		print_r($food);
 	}
 
 
