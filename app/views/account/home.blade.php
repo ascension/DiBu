@@ -498,7 +498,7 @@
   <script src="/assets/js/bootstrap.js"></script>
   
 	<script>
-	$( "form" ).on( "submit", function(event) 
+	$("form").on("submit", function(event) 
 	{
 		event.preventDefault();
 		
@@ -509,7 +509,17 @@
 			data: $(this).serialize(),
 			success: function(r)
 			{
-				console.log(r);
+				BootstrapDialog.show({
+					title: 'Success!',
+					message: "We add this data to the log book.",
+					buttons: [{
+						label: 'Close',
+						action: function(dialogItself)
+						{
+							dialogItself.close();
+						}
+					}]
+				});
 			}
 		});
 	});

@@ -45,7 +45,7 @@ class FoodController extends \BaseController {
 		
 		$food->save();
 		
-		return $food->id;
+		return $food;
 	}
 
 
