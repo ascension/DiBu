@@ -48,7 +48,21 @@
 	                  		</div> 
 	                  	</section>
                   	</div>
+                  	<div class="col-md-6">
+	                	<section class="panel panel-default">
+	                  		<header class="panel-heading font-bold">Readings</header> 
+	                  		<div class="panel-body"> 
+	                  			<ul>
+						  		@foreach($readings as $reading)
+						  			<li>{{$reading->reading}} | {{$reading->note}} | User ID: {{$reading->user_id}}</li>	
+						  		@endforeach
+	                  			</ul>
+	                  		</div> 
+	                  	</section>
+					 </div>
+                  </div>
                   	
+                  <div class="row">
                   	<div class="col-md-6">
 	                  	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a meal</header> 
@@ -77,6 +91,18 @@
 	                  		</div> 
 	                  	</section>
                   	</div>
+                  	<div class="col-md-6">
+	                	<section class="panel panel-default">
+	                  		<header class="panel-heading font-bold">Meal Items</header> 
+	                  		<div class="panel-body"> 
+	                  			<ul>
+						  		@foreach($meals as $meal)
+						  			<li>{{$meal->id}} | {{$meal->user_id}}</li>	
+						  		@endforeach
+	                  			</ul>
+	                  		</div> 
+	                  	</section>
+					 </div>
                   </div>
                   
                 <div class="row">

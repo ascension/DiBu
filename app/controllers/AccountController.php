@@ -25,7 +25,9 @@ class AccountController extends BaseController {
 		$data['last_name'] = Auth::user()->last_name;
 		$data['location'] = GeoIP::getLocation();
 		
-		$data['foods'] = Food::all();
+		$data['foods'] 		= Food::all();
+		$data['readings'] 	= Reading::all();
+		$data['meals'] 		= Meal::all();
 		
 		if (Auth::check())
 		{
