@@ -32,7 +32,7 @@ class AccountController extends BaseController {
 		if (Auth::check())
 		{
 			$this->layout->content	= View::make('account.home',$data);
-			$this->layout->header	= View::make('account.header');
+			$this->layout->header	= View::make('account.header',$data);
 		}
 		else
 		{

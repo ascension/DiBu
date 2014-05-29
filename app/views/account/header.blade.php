@@ -155,7 +155,7 @@
             <span class="thumb-sm avatar pull-left">
               <img src="/assets/images/a0.png" alt="...">
             </span>
-            John.Smith <b class="caret"></b>
+            {{$first_name}} {{$last_name}} <b class="caret"></b>
           </a>
           <ul class="dropdown-menu animated fadeInRight">            
             <li>
