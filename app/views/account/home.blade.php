@@ -80,7 +80,7 @@
                   </div>
                   
                 <div class="row">
-					<div class="col-md-12">
+					<div class="col-md-6">
 	                	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Food Item</header> 
 	                  		<div class="panel-body"> 
@@ -100,6 +100,19 @@
 	                  				</div>
 	                  				<button type="submit" class="btn btn-default">Submit</button> 
 	                  			</form>
+	                  		</div> 
+	                  	</section>
+					 </div>
+					 
+					<div class="col-md-6">
+	                	<section class="panel panel-default">
+	                  		<header class="panel-heading font-bold">Food Items</header> 
+	                  		<div class="panel-body"> 
+	                  			<ul>
+						  		@foreach($foods as $food)
+						  			<li>print_r($food)</li>	
+						  		@endforeach
+	                  			</ul>
 	                  		</div> 
 	                  	</section>
 					 </div>

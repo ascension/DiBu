@@ -25,6 +25,8 @@ class AccountController extends BaseController {
 		$data['last_name'] = Auth::user()->last_name;
 		$data['location'] = GeoIP::getLocation();
 		
+		$data['foods'] = Food::all();
+		
 		if (Auth::check())
 		{
 			$this->layout->content	= View::make('account.home',$data);
