@@ -496,6 +496,7 @@
   <script src="/assets/js/jquery.min.js"></script>
   <!-- Bootstrap -->
   <script src="/assets/js/bootstrap.js"></script>
+  <script src="/assets/js/bootstrap-dialog.min.js"></script>
   
 	<script>
 	$("form").on("submit", function(event) 
