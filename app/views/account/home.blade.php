@@ -497,29 +497,23 @@
   <!-- Bootstrap -->
   <script src="/assets/js/bootstrap.js"></script>
   
-  <script>
-	  $( "form" ).on( "submit", function(event) 
-	  {
-		  event.preventDefault();
-		  
-		  $.ajax({
-			  url: $(this).attr('action'),
-			  type: "POST",
-			  dataType: "JSON",
-			  data: $( this ).serialize(),
-			  success: function(r)
-			  {
-				  console.log(r);
-			  }
-			  
-			  });
-		  
-		  console.log( $( this ).serialize() );
+	<script>
+	$( "form" ).on( "submit", function(event) 
+	{
+		event.preventDefault();
+		
+		$.ajax({
+			url: $(this).attr('action'),
+			type: "POST",
+			dataType: "JSON",
+			data: $(this).serialize(),
+			success: function(r)
+			{
+				console.log(r);
+			}
+		});
 	});
-	
-
-	  
-  </script>
+	</script>
   
   <!-- App -->
   <script src="/assets/js/app.js"></script>  
