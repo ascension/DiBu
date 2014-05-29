@@ -503,7 +503,7 @@
 		  event.preventDefault();
 		  
 		  $.ajax({
-			  url: $(this).attr('actrion'),
+			  url: $(this).attr('action'),
 			  type: "POST",
 			  dataType: "JSON",
 			  data: $( this ).serialize(),
