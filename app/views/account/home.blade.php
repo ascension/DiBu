@@ -110,7 +110,7 @@
 	                  		<div class="panel-body"> 
 	                  			<ul>
 						  		@foreach($foods as $food)
-						  			<li>{{print_r($food)}}</li>	
+						  			<li>{{$food->brand}} | {{$food->description}} | Carbs: {{$food->carbs}}g</li>	
 						  		@endforeach
 	                  			</ul>
 	                  		</div> 
