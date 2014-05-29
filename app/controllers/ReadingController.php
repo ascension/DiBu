@@ -35,6 +35,7 @@ class ReadingController extends \BaseController {
 		$r = new Reading;
 		
 		$r->reading = Input::get('bg_reading');
+		$r->note	= Input::get('bg_note');
 		$r->user_id = Auth::user()->id;
 		
 		$r->save();
