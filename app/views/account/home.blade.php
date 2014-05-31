@@ -136,6 +136,8 @@
                   
                 <div class="row">
 					<div class="col-md-6">
+						<div class="row">
+					<div class="col-md-12">
 	                	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Food Item</header> 
 	                  		<div class="panel-body"> 
@@ -158,20 +160,47 @@
 	                  		</div> 
 	                  	</section>
 					 </div>
-					 
-					<div class="col-md-6">
-	                	<section class="panel panel-default">
-	                  		<header class="panel-heading font-bold">Food Items</header> 
-	                  		<div class="panel-body"> 
-	                  			<ul>
-						  		@foreach($foods as $food)
-						  			<li>{{$food->brand}} | {{$food->description}} | Carbs: {{$food->carbs}}g</li>	
-						  		@endforeach
-	                  			</ul>
-	                  		</div> 
-	                  	</section>
-					 </div>
-				 </div>
+					</div>
+						<div class="row">
+						<div class="col-md-12">
+							<section class="panel panel-default"> 
+								<header class="panel-heading">Food Items</header> 
+								<table class="table table-striped m-b-none"> 
+									<thead> 
+										<tr> 
+											<th>Brand</th>
+											<th>Description</th> 
+											<th>Carbs</th> 
+											<th>Date</th>
+										</tr> 
+									</thead> 
+									<tbody> 
+										@foreach($foods as $food)
+										<tr>
+											<td> 
+											{{$food->brand}}
+											</td> 
+											
+											<td>
+											{{$food->description}}
+											</td>
+											
+											<td>
+											{{$food->carbs}}g
+											</td>
+											
+											<td> 
+											{{date('m-d-Y H:i a',strtotime($food->created_at))}}
+											</td>
+										</tr>
+									@endforeach
+									</tbody>
+								</table>
+							</section>
+						</div>
+					</div>
+					</div>
+				</div>
                       
               </section>
             </section>
