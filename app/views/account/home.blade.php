@@ -30,52 +30,56 @@
                   
                   <div class="row">
                   	<div class="col-md-6">
-	                  	<section class="panel panel-default">
-	                  		<header class="panel-heading font-bold">Add a Blood Glucose Reading</header> 
-	                  		<div class="panel-body"> 
-	                  			<form class="form-inline" role="form" method="post" action="/api/reading"> 
-	                  				<div class="form-group"> 
-	                  					<label class="sr-only" for="exampleInputEmail2">Reading</label> 
-	                  					<input type="text" class="form-control" name="bg_reading" id="exampleInputEmail2" placeholder="Enter meter reading"> 
-	                  					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
-	                  				</div> 
-	                  				<div class="form-group">
-	                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
-	                  					<input type="text" class="form-control" name="bg_note" id="exampleInputPassword2" placeholder="ex. Before Lunch">
-	                  				</div>
-	                  				<button type="submit" class="btn btn-default">Submit</button> 
-	                  			</form>
-	                  		</div> 
-	                  	</section>
-                  	</div>
-                  	<div class="col-md-6">
-                  	<section class="panel panel-default"> 
-                  		<header class="panel-heading">Readings</header> 
-                  		<table class="table table-striped m-b-none"> 
-                  			<thead> 
-                  				<tr> 
-                  					<th>Date</th> 
-                  					<th>Reading</th> 
-                  					<th>Note</th> 
-                  				</tr> 
-                  			</thead> 
-                  			<tbody> 
-                  			@foreach($readings as $reading)
-                  			<tr>
-                  				<td> 
-					  				{{date('m-d-Y H:i a',strtotime($reading->created_at))}}
-					  			</td> 
-					  			<td>{{$reading->reading}}</td>
-					  			<td> 
-					  				{{$reading->note}}
-					  			</td>
-					  		</tr>
-					  		@endforeach
-					  		</tbody>
-					  		</table>
-					</section>
-                  	
-					 </div>
+                  		<div class="row">
+                  			<div class="col-md-12">
+			                  	<section class="panel panel-default">
+			                  		<header class="panel-heading font-bold">Add a Blood Glucose Reading</header> 
+			                  		<div class="panel-body"> 
+			                  			<form class="form-inline" role="form" method="post" action="/api/reading"> 
+			                  				<div class="form-group"> 
+			                  					<label class="sr-only" for="exampleInputEmail2">Reading</label> 
+			                  					<input type="text" class="form-control" name="bg_reading" id="exampleInputEmail2" placeholder="Enter meter reading"> 
+			                  					<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+			                  				</div> 
+			                  				<div class="form-group">
+			                  					<label class="sr-only" for="exampleInputPassword2">Notes</label> 
+			                  					<input type="text" class="form-control" name="bg_note" id="exampleInputPassword2" placeholder="ex. Before Lunch">
+			                  				</div>
+			                  				<button type="submit" class="btn btn-default">Submit</button> 
+			                  			</form>
+			                  		</div> 
+			                  	</section>
+							 </div>
+                  		</div>
+                  		<div class="row">
+		                  	<div class="col-md-12">
+		                  	<section class="panel panel-default"> 
+		                  		<header class="panel-heading">Readings</header> 
+		                  		<table class="table table-striped m-b-none"> 
+		                  			<thead> 
+		                  				<tr> 
+		                  					<th>Date</th> 
+		                  					<th>Reading</th> 
+		                  					<th>Note</th> 
+		                  				</tr> 
+		                  			</thead> 
+		                  			<tbody> 
+		                  			@foreach($readings as $reading)
+		                  			<tr>
+		                  				<td> 
+							  				{{date('m-d-Y H:i a',strtotime($reading->created_at))}}
+							  			</td> 
+							  			<td>{{$reading->reading}}</td>
+							  			<td> 
+							  				{{$reading->note}}
+							  			</td>
+							  		</tr>
+							  		@endforeach
+							  		</tbody>
+							  		</table>
+							</section>
+							</div>
+						</div>
                   </div>
                   	
                   <div class="row">
