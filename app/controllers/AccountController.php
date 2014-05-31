@@ -26,7 +26,7 @@ class AccountController extends BaseController {
 		$data['location'] = GeoIP::getLocation();
 		
 		$data['foods'] 		= Food::all();
-		$data['readings'] 	= Reading::all();
+		$data['readings'] 	= Reading::orderBy('id','DESC')->take(10)->get();
 		$data['meals'] 		= Meal::all();
 		
 		if (Auth::check())
