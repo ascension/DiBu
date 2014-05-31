@@ -137,7 +137,7 @@
                 <div class="row">
 					<div class="col-md-6">
 						<div class="row">
-					<div class="col-md-12">
+							<div class="col-md-12">
 	                	<section class="panel panel-default">
 	                  		<header class="panel-heading font-bold">Add a Food Item</header> 
 	                  		<div class="panel-body"> 
@@ -160,9 +160,10 @@
 	                  		</div> 
 	                  	</section>
 					 </div>
-					</div>
+						</div>
+				
 						<div class="row">
-						<div class="col-md-12">
+							<div class="col-md-12">
 							<section class="panel panel-default"> 
 								<header class="panel-heading">Food Items</header> 
 								<table class="table table-striped m-b-none"> 
@@ -198,7 +199,7 @@
 								</table>
 							</section>
 						</div>
-					</div>
+						</div>
 					</div>
 				</div>
                       
