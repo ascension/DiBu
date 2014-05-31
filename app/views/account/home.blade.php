@@ -69,7 +69,16 @@
 		                  				<td> 
 							  				{{date('m-d-Y H:i a',strtotime($reading->created_at))}}
 							  			</td> 
-							  			<td>{{$reading->reading}}</td>
+							  			@if($reading->reading >= 150)
+							  				<td class="text-danger">{{$reading->reading}}</td>
+							  			@elseif($reading->reading <= 80)
+							  			<td class="text-danger">
+							  				<i class="fa fa-level-down"></i>
+							  				{{$reading->reading}}
+							  			</td>
+							  			@else
+							  				<td class="text-success">{{$reading->reading}}</td>
+							  			@endif
 							  			<td> 
 							  				{{$reading->note}}
 							  			</td>
