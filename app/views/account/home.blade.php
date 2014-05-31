@@ -49,16 +49,32 @@
 	                  	</section>
                   	</div>
                   	<div class="col-md-6">
-	                	<section class="panel panel-default">
-	                  		<header class="panel-heading font-bold">Readings</header> 
-	                  		<div class="panel-body"> 
-	                  			<ul>
-						  		@foreach($readings as $reading)
-						  			<li>{{$reading->reading}} | {{$reading->note}} | User ID: {{$reading->user_id}}</li>	
-						  		@endforeach
-	                  			</ul>
-	                  		</div> 
-	                  	</section>
+                  	<section class="panel panel-default"> 
+                  		<header class="panel-heading">Readings</header> 
+                  		<table class="table table-striped m-b-none"> 
+                  			<thead> 
+                  				<tr> 
+                  					<th>Date</th> 
+                  					<th>Reading</th> 
+                  					<th>Note</th> 
+                  				</tr> 
+                  			</thead> 
+                  			<tbody> 
+                  			@foreach($readings as $reading)
+                  			<tr>
+                  				<td> 
+					  				{{date('m-d-Y',$reading->created_at)}}
+					  			</td> 
+					  			<td>{{$reading->reading}}</td>
+					  			<td> 
+					  				{{$reading->note}}
+					  			</td>
+					  		</tr>
+					  		@endforeach
+					  		</tbody>
+					  		</table>
+					</section>
+                  	
 					 </div>
                   </div>
                   	
