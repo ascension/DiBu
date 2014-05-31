@@ -38,15 +38,15 @@
   </footer>
   <!-- / footer -->  <script src="js/jquery.min.js"></script>
   <!-- Bootstrap -->
-  <script src="js/bootstrap.js"></script>
-  <script src="js/bootstrap-dialog.min.js"></script>
+  <script src="/assets/js/bootstrap.js"></script>
+  <script src="/assets/js/bootstrap-dialog.min.js"></script>
   <!-- App -->
-  <script src="js/app.js"></script>  
-  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="/assets/js/app.js"></script>  
+  <script src="/assets/js/slimscroll/jquery.slimscroll.min.js"></script>
   
-  <script src="js/appear/jquery.appear.js"></script>
-  <script src="js/landing.js"></script>
-  <script src="js/app.plugin.js"></script>
+  <script src="/assets/js/appear/jquery.appear.js"></script>
+  <script src="/assets/js/landing.js"></script>
+  <script src="/assets/js/app.plugin.js"></script>
   
   	<script type="text/javascript">
     	if (window.location.hash && window.location.hash == '#_=_') 
