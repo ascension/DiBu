@@ -63,7 +63,7 @@
                   			@foreach($readings as $reading)
                   			<tr>
                   				<td> 
-					  				{{date('m-d-Y',$reading->created_at)}}
+					  				{{date('m-d-Y',strtotime($reading->created_at))}}
 					  			</td> 
 					  			<td>{{$reading->reading}}</td>
 					  			<td> 
